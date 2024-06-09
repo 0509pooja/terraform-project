@@ -39,7 +39,7 @@ resource "aws_instance" "bastion" {
     Name = "bastion"
   }
 
-  # Ensure a public IP is assigned to the instance
+  #  public IP is assigned to the instance
   associate_public_ip_address = true
 }
 
