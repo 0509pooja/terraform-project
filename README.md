@@ -23,7 +23,7 @@ This document provides a comprehensive guide to setting up a private network usi
 ## Architecture Overview
 The setup includes:
 - An AWS VPC with private subnets.
-- Two EC2 instances: one for a web application (Node.js or Python Flask) and one for a PostgreSQL database.
+- Two EC2 instances: one for a web application ( Python Flask) and one for a PostgreSQL database.
 - Security groups and network ACLs to control traffic.
 - A bastion host for secure SSH access.
 - An Application Load Balancer (ALB) for routing traffic to the web application.
